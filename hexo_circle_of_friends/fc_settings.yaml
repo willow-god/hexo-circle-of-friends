@@ -31,7 +31,7 @@ LINK: [
 #       suffix：选填，自定义订阅后缀，主要针对不规范的网站订阅后缀，见示例2
 SETTINGS_FRIENDS_LINKS: {
     enable: true,
-    json_api: "https://raw.githubusercontent.com/willow-god/MyBlog/main/friend.json?token=GHSAT0AAAAAACQFY62JDWLGMEY26AIW5EJKZQFEPEA",
+    json_api: "https://www.qyliu.top/friend.json",
     list: [
         # 示例1：
         # ["贰猹の小窝", "https://noionion.top/", "https://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg"],
