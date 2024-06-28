@@ -10,6 +10,7 @@
       }
     }
   ],
+  "buildCommand": "bash install.sh",
   "rewrites": [
     {
       "source": "/(.*)",
@@ -34,8 +35,5 @@
         }
       ]
     }
-  ],
-  "scripts": {
-    "build": "bash install.sh"
-  }
+  ]
 }
