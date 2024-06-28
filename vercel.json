@@ -1,6 +1,15 @@
 {
   "version": 2,
   "public": true,
+  "builds": [
+    {
+      "src": "api/main.py",
+      "use": "@vercel/python",
+      "config": {
+        "zeroConfig": true
+      }
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",
@@ -25,5 +34,8 @@
         }
       ]
     }
-  ]
+  ],
+  "scripts": {
+    "build": "bash install.sh"
+  }
 }
