@@ -44,6 +44,11 @@ jobs:
       with:
         python-version: 3.8
 
+    - name: Downgrade PIP
+      working-directory: ./hexo_circle_of_friends
+      run: |
+        pip install -U pip==21.2.1
+
     - name: Install requirements
       working-directory: ./hexo_circle_of_friends
       run: |
