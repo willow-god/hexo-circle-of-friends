@@ -1,16 +1,6 @@
 {
   "version": 2,
   "public": true,
-  "builds": [
-    {
-      "src": "api/main.py",
-      "use": "@vercel/python",
-      "config": {
-        "zeroConfig": true
-      }
-    }
-  ],
-  "buildCommand": "bash install.sh",
   "rewrites": [
     {
       "source": "/(.*)",
